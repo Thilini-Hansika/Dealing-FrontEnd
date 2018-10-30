@@ -1,0 +1,21 @@
+@media screen and (max-width: 999px ) {
+    .container{
+        width: 100%;
+        /*background-color: #006064;*/
+    }
+    #first{
+        width: 25%;
+
+    }
+    #second{
+        width: 25%;
+
+    }
+    #third{
+        width: 25%;
+    }
+    #fourth{
+        width: 25%;
+    }
+
+}

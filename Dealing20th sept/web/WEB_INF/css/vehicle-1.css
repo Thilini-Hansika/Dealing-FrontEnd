@@ -1,0 +1,152 @@
+Button :hover {
+    background-color: #8F0808;
+
+}
+
+.btn-primary {
+    background-color: #3B5998
+}
+
+.btn-primary:hover {
+    /*color: #ffffff;*/
+    background-color: #474e5d;
+
+}
+
+.btn-info {
+    background-color: #009688;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+btn-info :hover {
+    background-color: #474e5d;
+}
+
+#i-2 {
+    width: 500px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    color: #474e5d;
+}
+
+#p1 {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: #474e5d;
+    font-size: 16px;
+}
+
+#p2 {
+    color: #3B5998;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.card {
+    background-color: #090909;
+    width: 500px;
+    height: 650px;
+}
+
+.card-body {
+    height: 650px;
+    width: 500px;
+}
+
+#h5-1 {
+    color: #3B5998;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    /*text-align: center;*/
+}
+
+#h3-1 {
+    color: #8F0808;
+    font-weight: bold;
+}
+
+#p3 {
+    color: #3B5998;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+li {
+    color: white;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.z {
+    list-style-type: none;
+    display: inline-block;
+}
+
+@media (max-height: 700px) {
+    .z {
+        height: 20px;
+    }
+
+}
+
+@media (max-height: 400px) {
+    .z {
+        width: 50px;
+    }
+
+}
+
+#p4 {
+    color: #3B5998;
+    font-weight: bold;
+    font-family: "Times New Roman";
+}
+
+#example1 {
+    box-sizing: content-box;
+    width: 320px;
+    height: 80px;
+    padding: 30px;
+    border: 2px solid #3B5998;
+}
+
+td {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: #3B5998;
+}
+
+.pic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 260px;
+    height: 150px;
+
+}
+
+
+
+
+.pic:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.table{
+    width: 390px;
+}
+@media(max-width: 305px)  {
+    .table{
+        width: 100px;
+    }
+
+}

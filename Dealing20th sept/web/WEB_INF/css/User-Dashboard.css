@@ -1,0 +1,129 @@
+/** {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+/*header {*/
+    /*width: 100%;*/
+/*}*/
+
+/*header nav {*/
+    /*width: 90%;*/
+    /*max-width: 1440px;*/
+    /*margin: 20px auto;*/
+    /*background-color: #003366;*/
+
+/*}*/
+
+/*.menu-bar {*/
+    /*display: block;*/
+/*}*/
+
+/*header nav ul {*/
+    /*overflow: hidden;*/
+    /*list-style: none;*/
+/*}*/
+
+/*header nav ul li {*/
+    /*float: left;*/
+/*}*/
+
+/*header nav ul li a {*/
+    /*color: #fff;*/
+    /*padding: 20px;*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*header ul li span {*/
+    /*margin-right: 10px;*/
+/*}*/
+
+/*header ul li a:hover {*/
+    /*background-color: #003f80;*/
+
+/*}*/
+
+/*@media screen and (max-width: 1440px) {*/
+    /*header nav {*/
+        /*width: 20%;*/
+        /*height: 100%;*/
+        /*left: 100%;*/
+        /*margin: 0;*/
+        /*position: fixed;*/
+    /*}*/
+
+    /*header nav ul li {*/
+        /*display: block;*/
+        /*float: none;*/
+        /*border-bottom: 1px solid rgba(255, 255, 255, .3);*/
+    /*}*/
+
+    /*.menu-bar {*/
+        /*display: block;*/
+        /*width: 100%;*/
+        /*background-color: #ccc;*/
+    /*}*/
+
+    /*.menu-bar .bt-menu {*/
+        /*display: block;*/
+        /*padding: 20px;*/
+        /*background-color: #00264e;*/
+        /*color: white;*/
+        /*text-decoration: none;*/
+        /*font-weight: bold;*/
+        /*font-size: 20px;*/
+        /*-webkit-box-sizing: border-box;*/
+        /*-moz-box-sizing: border-box;*/
+        /*box-sizing: border-box;*/
+    /*}*/
+
+    /*.menu-bar i {*/
+        /*float: right;*/
+        /*font-size: 25px;*/
+    /*}*/
+/*}*/
+/*@import url(https://fonts.googleapis.com/css?family=Playfair+Display);*/
+
+/*body {*/
+    /*font-family: 'Times New Roman';*/
+/*}*/
+#navBar {
+    /*position: fixed;*/
+    top: 0px;
+    left: -10px;
+    /*background: rgba(41, 128, 185,1.0);*/
+    width: 205px;
+    height: 100%;
+}
+
+#navBar #n-1 {
+    list-style-type: none;
+   background-color:  black;
+    height: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    display: block;
+}
+
+#navBar #n-1 #l-1{
+    margin-left:0;
+    display: list-item;
+    text-align: center;
+}
+
+#navBar #n-1 #l-1 #a-1 {
+    text-decoration: none;
+    font-weight:bold;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.active {
+    /*background-color: #003f80;*/
+    box-shadow: 5px 5px 0px 3px #00264e;
+}
